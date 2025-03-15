@@ -5,7 +5,7 @@ const RecipeFinder = () => {
     const [recipes, setRecipes] = useState([]);
     const [selectedRecipe, setSelectedRecipe] = useState(null);
     
-    const apiKey = "20e8d773027b4b1b9cd8f47f2f39db49"; 
+    const apiKey = "626bf0400ac840f4a9ecd80b95f09f15"; 
 
     const searchRecipes = async () => {
         if (!query) {
